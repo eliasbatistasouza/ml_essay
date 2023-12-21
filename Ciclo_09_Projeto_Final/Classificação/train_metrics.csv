@@ -1,0 +1,5 @@
+,Algorithm,Accuracy,Precision,Recall,F1 Score
+0,KNN,0.782,0.756,0.733,0.744
+0,Decision Tree,1.0,1.0,1.0,1.0
+0,Random Forest,1.0,1.0,1.0,1.0
+0,Logistic Regression,0.567,0.0,0.0,0.0
