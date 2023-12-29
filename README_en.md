@@ -4,54 +4,54 @@
 
 <!--- BANNER --->
 <div align="center">
-<img src="./docs/report-analysis-flatline.svg" alt="Relatório" height="250px"/>
+<img src="./docs/report-analysis-flatline.svg" alt="Report" height="250px"/>
 </div>
 
 ## Machine Learning Essay
-Estudo de *Machine Learning* com algoritmos de Classificação, Regularização e Clusterização, com o objetivo de entender como diferentes hiperparâmetros, e a separação entre dados de treino, validação e teste, impactam a performance e podem leva ao *overfitting* ou *underfitting* em modelos de *machine learning*.
+Machine Learning essay of Classification, Regularization and Clustering algorithms, with the goal of understand how diferent hyperparametrs and the spliting of data into train, validation and test datasets may impact performance and lead to overfitting or underfitting in machine learning models.
 
-Para esse estudo foram utilizados conjunto de dados préviamente preparados e separados, prontos para aplicação nos algoritmos.
+For this essay, a set of previously processed and splited data was used.
 
-## Algoritmos
-Os algoritmos e os parâmetros utilizados no estudo foram:
+## Algorithms
+The algorithms and parameters used in the study were:
 
-### Classificação
-- **Algoritmos:** K-Nearest Neighbors, Decision Tree, Logistic Regression e Random Forest;
-- **Métricas de Performance:** Accuracy, Precision, Recall, F1 Score.
+## Classification
+- **Algorithms:** K-Nearest Neighbors, Decision Tree, Logistic Regression and Random Forest;
+- **Performance Metrics:** Accuracy, Precision, Recall and F1 Score.
 
-### Regressão 
-- **Algoritmos:** Decision Tree Regressor, Random Forest Regressor, Linear Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net, Polynomial Regression, Polynomial Regression Lasso, Polynomial Regression Ridge e Polynomial Regression Elastic Net;
-- **Métricas de Performance:** R-Quadrado, MSE, RMSE, MAE, MAPE.
+### Regression 
+- **Algorithms:** Decision Tree Regressor, Random Forest Regressor, Linear Regression, Linear Regression Lasso, Linear Regression Ridge, Linear Regression Elastic Net, Polynomial Regression, Polynomial Regression Lasso, Polynomial Regression Ridge and Polynomial Regression Elastic Net;
+- **Performance Metrics:** R-Quadrado, MSE, RMSE, MAE and MAPE.
 
-### Clusterização
-- **Algoritmos:** K-Means, Affinity Propagation;
-- **Métricas de Performance:** Silhouette Score.
+### Clustering
+- **Algorithms:** K-Means and Affinity Propagation;
+- **Performance Metrics:** Silhouette Score.
 
-## Desenvolvimento
-Os valores resultantes desse ensaio foram obtidos a partir da aplicação dos seguintes passos:
+## Development
+The values resulting from this trial were obtained by following these steps:
 
-1. Treinar o modelo com dados de treino utilizando os parâmetros padrão;
-2. Medir a performance do modelo nos dados de treino;
-3. Medir a performance do modelo nos dados de validação;
-4. Modificar valores dos parâmetros escolhidos para esse ensaio e treinar novo modelo com dados de treino; 
-5. Medir performance nos dados de validação;
-6. Repetir passos 4 e 5 até encontrar o melhor valor dos parâmetros escolhidos;
-7. Unir os dados de treino e validação;
-8. Treinar o modelo final com os dados unidos e os melhores valores dos parâmetros;
-9. Medir performance do modelo final nos dados de teste.
+1. Train the model with training dataset using the default parameters;
+2. Measure model performance on training dataset;
+3. Measure model performance on validation dataset;
+4. Modify chosen parameters values and train a new model using training dataset;
+5. Measure performance on validation dataset;
+6. Repeat steps 4 and 5 until the best value of the chosen parameters are found;
+7. Merge training and validation datasets;
+8. Train the final model using the merged dataset with the best parameters values;
+9. Measure performance for the final model on test dataset.
 
-> :bulb: **Clusterização**  
-> Para modelos de clusterização foram utilizadas técnicas como *Elbow Method* para escolher os melhores parâmetros.
+> :bulb: **Clustering**  
+>For clustering models techniques such as *Elbow Method* were used to choose the best parameters.
 
-## Resultados
-Os resultados de performance obtidos para cada modelo foram:
+## Results
+The performance results obtained for each model were:
 
-### Algoritmos de Classificação
+### Classification Algorithms
 ___
-É possível perceber que para a maioria dos modelos de classificação, a performance dos dados de validação ficaram bem próximas a performance dos dados de teste.
+It is possible to observe that for most classification models, the performance on validation dataset was very close to the performance on test dataset.
 
 <div align="center">
-  <h4><b>Dados de Treino</b></h4>
+  <h4><b>Training Dataset</b></h4>
 </div>
 
 <div align="center">
@@ -66,7 +66,7 @@ ___
 </div>
 
 <div align="center">
-  <h4><b>Dados de Validação</b></h4>
+  <h4><b>Validation Dataset</b></h4>
 </div>
 
 <div align="center">
@@ -81,7 +81,7 @@ ___
 </div>
 
 <div align="center">
-  <h4><b>Dados de Teste</b></h4>
+  <h4><b>Test Dataset</b></h4>
 </div>
 
 <div align="center">
@@ -95,12 +95,12 @@ ___
 
 </div>
 
-### Algoritmos de Regressão
+### Regression Algorithms
 ___
-Vemos que nenhum modelo de regressão estudado teve uma performance satisfatória nos dados de teste, porém em alguns casos é possível observer claramente o *overfitting* do modelo.
+No regression model studied had a satisfactory performance on test data, however in some cases it is possible to see clearly the model *overfitting*.
 
 <div align="center">
-  <h4><b>Dados de Treino</b></h4>
+  <h4><b>Training Dataset</b></h4>
 </div>
 
 <div align="center">
@@ -121,7 +121,7 @@ Vemos que nenhum modelo de regressão estudado teve uma performance satisfatóri
 </div>
 
 <div align="center">
-  <h4><b>Dados de Validação</b></h4>
+  <h4><b>Validation Dataset</b></h4>
 </div>
 
 <div align="center">
@@ -142,7 +142,7 @@ Vemos que nenhum modelo de regressão estudado teve uma performance satisfatóri
 </div>
 
 <div align="center">
-  <h4><b>Dados de Teste</b></h4>
+  <h4><b>Test Dataset</b></h4>
 </div>
 
 <div align="center">
@@ -162,9 +162,9 @@ Vemos que nenhum modelo de regressão estudado teve uma performance satisfatóri
 
 </div>
 
-### Algoritmos de Clusterização
+### Clustering Algorithms
 ___
-Apesar da performance baixa, o que pode indicar necessidade de seleção de atributos, os dois algoritmos de clusterização encontraram o mesmo número de clusters.
+Despite the low performance, which may indicate the need for feature selection, the two clustering algorithms found the same number of clusters.
 </br>
 <div align="center">
 
@@ -175,7 +175,7 @@ Apesar da performance baixa, o que pode indicar necessidade de seleção de atri
 
 </div>
 
-Para esses modelos é possível observar a divisão dos clusters utilizando a técnica de *[Principal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis)*.
+For these models its posssible to verify clusters separation using [Principal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis).
 
 <p align="center">
   <img alt="K-means" src="./docs/kmeans.png" width="40%">
@@ -183,13 +183,13 @@ Para esses modelos é possível observar a divisão dos clusters utilizando a t�
   <img alt="Affinity Propagation" src="./docs/affinitypropagation.png" width="40%">
 </p>
 
-## Conclusão
-Com a observação do comportamento dos modelos para diferentes valores de hyperparâmetros nesse estudo, foi possível comprovar que esses hyperparâmetros, apesar de não causarem saltos de performance dos modelos, podem ser responsáveis diretos pela ocorrência de *overfitting* ou *underfitting*. Além disso a estratégia de separação dos dados em conjuntos de treino, validação e teste é o que possibilita a observação desses fenômenos.
+## Conclusion
+By observing the behavior of these models for different values of hyperparameters its proven that these hyperparameters, despite not causing significant improvements in models' performance, can be directly responsible for the occurrence of overfitting or underfitting. Furthermore, the strategy of separating data into training, validation and test sets is what makes it possible to observe these phenomena.
 
-Também podemos concluir que algoritmos não paramétricos tiveram melhor performancee que algoritmos paramétricos, isso pode ter acontecido por sua melhor adaptação a diferentes distribuições de dados.
+We can also conclude that non-parametric algorithms had better performance than parametric algorithms, this may have been due to their better adaptation to different data distributions.
 
-## Autor
-Feito com ❤️ por Elias Batista 👋🏽 Entre em contato!
+## Author
+Made with ❤️ by Elias Batista 👋🏽 Get in touch!
 
 <a href="https://eliasbatista.com" target="_blank"><img src="https://img.shields.io/badge/WEBSITE-689f38?style=for-the-badge&logo=About.me&logoColor=white" alt="website badge"></a>
 <a href = "mailto:contato@eliasbatista.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="mail badge"></a>

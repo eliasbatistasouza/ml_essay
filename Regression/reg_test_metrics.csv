@@ -1,7 +1,7 @@
 ,Algorithm,R-Squared,MSE,RMSE,MAE,MAPE
 0,Decision Tree - Regressor,0.09,442.848,21.044,16.83,7.883
 0,Random Forest Regressor,0.404,290.205,17.035,12.243,6.288
-0,Linear Regression,,,,,
+0,Linear Regression,0.051,461.988,21.494,17.144,8.531
 0,Linear Regression - Lasso,0.051,461.988,21.494,17.144,8.531
 0,Linear Regression - Ridge,0.051,461.999,21.494,17.143,8.537
 0,Linear Regression - ElasticNet,0.051,461.988,21.494,17.144,8.531
